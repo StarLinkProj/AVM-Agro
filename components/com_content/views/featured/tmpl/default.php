@@ -16,6 +16,7 @@ JHtml::_('behavior.caption');
 // If the page class is defined, add to class as suffix.
 // It will be a separate class if the user starts it with a space
 ?>
+<?php if (JFactory::getURI()->toString() != JURI::base() && JFactory::getURI()->toString() != JURI::base() . 'index.php') : ?>
 <div class="blog-featured<?php echo $this->pageclass_sfx;?>" itemscope itemtype="http://schema.org/Blog">
 <?php if ($this->params->get('show_page_heading') != 0) : ?>
 <div class="page-header">
@@ -94,3 +95,4 @@ JHtml::_('behavior.caption');
 <?php endif; ?>
 
 </div>
+<?php endif; ?>

@@ -707,17 +707,17 @@ class JPagination
 		{
 			JHtml::_('bootstrap.tooltip');
 			$title = ' title="' . $item->text . '"';
-			$class = 'hasTooltip ';
+			$class = ' ';
 		}
 
 		if ($this->app->isAdmin())
 		{
-			return '<a' . $title . ' href="#" onclick="document.adminForm.' . $this->prefix
+			return '<a' . '' . ' href="#" onclick="document.adminForm.' . $this->prefix
 			. 'limitstart.value=' . ($item->base > 0 ? $item->base : '0') . '; Joomla.submitform();return false;">' . $item->text . '</a>';
 		}
 		else
 		{
-			return '<a' . $title . ' href="' . $item->link . '" class="' . $class . 'pagenav">' . $item->text . '</a>';
+			return '<a' . '' . ' href="' . $item->link . '" class="' . $class . 'pagenav">' . $item->text . '</a>';
 		}
 	}
 

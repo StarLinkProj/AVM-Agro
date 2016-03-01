@@ -54,13 +54,32 @@ JHtml::_('behavior.caption');
 	<?php if (!empty($this->lead_items)) : ?>
 		<div class="items-leading clearfix">
 			<?php foreach ($this->lead_items as &$item) : ?>
-				<div class="leading-<?php echo $leadingcount; ?><?php echo $item->state == 0 ? ' system-unpublished' : null; ?>"
+				<div class="leading-<?php echo $leadingcount; ?><?php echo $item->state == 0 ? ' system-unpublished' : null; ?> news"
 					itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
 					<?php
 					$this->item = & $item;
 					echo $this->loadTemplate('item');
 					?>
+
 				</div>
+				<div class="news-created">
+					<?php
+						$rusMonth = array("Янв.", "Февр.", "Март", "Апр.", "Май", "Июн.", "Июл.", "Авг.", "Сент.", "Окт.", "Нояб.", "Дек.");
+						$ukrMonth = array("Січ.", "Лют.", "Бер.", "Квіт.", "Трав.", "Черв.", "Лип.", "Серп.", "Вер.", "Жовт.ь", "Лист.", "Груд.");
+
+						$timestamp = strtotime($this->item->created);
+						$requestUrl = $_SERVER['REQUEST_URI'];
+
+						if (preg_match('/\/ru\//', $requestUrl)) {
+							$month = $rusMonth[date("m", $timestamp) - 1];
+						} else if (preg_match('/\//', $requestUrl) || preg_match('/\/ua\//', $requestUrl)) {
+							$month = $ukrMonth[date("m", $timestamp) - 1];
+						}
+
+						echo date("d", $timestamp) . " " . $month . ", " . date("H", $timestamp) . ":" . date("i", $timestamp);
+					?>
+				</div>
+				<div class="clear"></div>
 				<?php $leadingcount++; ?>
 			<?php endforeach; ?>
 		</div><!-- end items-leading -->

@@ -11,7 +11,7 @@ $params = $displayData['params'];
 $item = $displayData['item'];
 ?>
 
-<p class="readmore">
+<span class="readmore">
 	<a class="btn" href="<?php echo $displayData['link']; ?>" itemprop="url">
 		<span class="icon-chevron-right"></span>
 		<?php if (!$params->get('access-view')) :
@@ -28,4 +28,4 @@ $item = $displayData['item'];
 			echo JHtml::_('string.truncate', ($item->title), $params->get('readmore_limit'));
 		endif; ?>
 	</a>
-</p>
+</span>
