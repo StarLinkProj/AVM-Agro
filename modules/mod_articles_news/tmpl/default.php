@@ -10,7 +10,15 @@
 defined('_JEXEC') or die;
 ?>
 <div class="newsflash<?php echo $moduleclass_sfx; ?>">
-	<?php foreach ($list as $item) : ?>
-		<?php require JModuleHelper::getLayoutPath('mod_articles_news', '_item'); ?>
-	<?php endforeach; ?>
+	<div class="jcarousel" data-jcarousel="true" data-jcarouselautoscroll="true">
+		<ul class="jcarousel-skin-name">
+			<?php foreach ($list as $item) : ?>
+				<li>
+					<div class="single-news">
+						<?php require JModuleHelper::getLayoutPath('mod_articles_news', '_item'); ?>
+					</div>
+				</li>
+			<?php endforeach; ?>
+		</ul>
+	</div>
 </div>

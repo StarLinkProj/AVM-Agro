@@ -40,6 +40,9 @@
 		<position>slider</position>
 		<position>map</position>
 		<position>left_menu</position>
+		<position>main-categories</position>
+		<position>categories</position>
+		<position>news_block</position>
 		<position>debug</position>
 	</positions>
 	
