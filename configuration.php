@@ -56,7 +56,7 @@ class JConfig {
 	public $feed_limit = '10';
 	public $log_path = '/var/www/vilan-791/data/www/avm-agro.pp.ua/logs';
 	public $tmp_path = '/var/www/vilan-791/data/www/avm-agro.pp.ua/tmp';
-	public $lifetime = '120';
+	public $lifetime = '15';
 	public $session_handler = 'database';
 	public $memcache_persist = '1';
 	public $memcache_compress = '0';

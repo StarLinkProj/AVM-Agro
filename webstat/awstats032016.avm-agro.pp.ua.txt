@@ -8,32 +8,32 @@ AWSTATS DATA FILE 6.95 (build 1.943)
 # update).
 BEGIN_MAP 27
 POS_GENERAL 1960                
-POS_TIME 2652                
-POS_VISITOR 7192                
-POS_DAY 7934                
-POS_DOMAIN 3454                
-POS_LOGIN 3690                
-POS_ROBOT 3845                
-POS_WORMS 4011                
-POS_EMAILSENDER 4142                
-POS_EMAILRECEIVER 4285                
-POS_SESSION 8368                
-POS_SIDER 8575                
-POS_FILETYPES 4420                
-POS_OS 4713                
-POS_BROWSER 4838                
-POS_SCREENSIZE 5116                
-POS_UNKNOWNREFERER 5190                
-POS_UNKNOWNREFERERBROWSER 5277                
-POS_ORIGIN 5359                
-POS_SEREFERRALS 5502                
-POS_PAGEREFS 5646                
-POS_SEARCHWORDS 5881                
-POS_KEYWORDS 6033                
-POS_MISC 2314                
-POS_ERRORS 6092                
-POS_CLUSTER 3546                
-POS_SIDER_404 6253                
+POS_TIME 2645                
+POS_VISITOR 7464                
+POS_DAY 8325                
+POS_DOMAIN 3475                
+POS_LOGIN 3711                
+POS_ROBOT 3866                
+POS_WORMS 4071                
+POS_EMAILSENDER 4202                
+POS_EMAILRECEIVER 4345                
+POS_SESSION 8792                
+POS_SIDER 9001                
+POS_FILETYPES 4480                
+POS_OS 4774                
+POS_BROWSER 4914                
+POS_SCREENSIZE 5303                
+POS_UNKNOWNREFERER 5377                
+POS_UNKNOWNREFERERBROWSER 5464                
+POS_ORIGIN 5546                
+POS_SEREFERRALS 5691                
+POS_PAGEREFS 5835                
+POS_SEARCHWORDS 6070                
+POS_KEYWORDS 6222                
+POS_MISC 2307                
+POS_ERRORS 6281                
+POS_CLUSTER 3567                
+POS_SIDER_404 6443                
 END_MAP
 
 # LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
@@ -45,14 +45,14 @@ END_MAP
 # MonthHostsKnown   = Number of hosts known
 # MonthHostsUnKnown = Number of hosts unknown
 BEGIN_GENERAL 8
-LastLine 20160315000724 10124 2576026 13991072901116
+LastLine 20160316220728 916 206119 16191595043436
 FirstTime 20160301000002
-LastTime 20160315000724
-LastUpdate 20160315000759 10124 0 10124 0 0
-TotalVisits 74                  
-TotalUnique 15                  
+LastTime 20160316220728
+LastUpdate 20160317000618 916 0 916 0 0
+TotalVisits 90                  
+TotalUnique 17                  
 MonthHostsKnown 0                   
-MonthHostsUnknown 15                  
+MonthHostsUnknown 17                  
 END_GENERAL
 
 # Misc ID - Pages - Hits - Bandwidth
@@ -62,7 +62,7 @@ JavaEnabled 0 0 0
 JavascriptDisabled 0 0 0
 PDFSupport 0 0 0
 WindowsMediaPlayerSupport 0 0 0
-AddToFavourites 0 203 0
+AddToFavourites 0 237 0
 RealPlayerSupport 0 0 0
 TotalMisc 0 0 0
 DirectorSupport 0 0 0
@@ -71,36 +71,36 @@ END_MISC
 
 # Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
 BEGIN_TIME 24
-0 275 3543 88625055 74 105 166437
+0 417 4978 158058033 113 144 196116
 1 0 0 0 0 0 0
 2 0 0 0 0 0 0
 3 0 0 0 0 0 0
-4 0 0 0 0 0 0
-5 0 0 0 0 0 0
+4 0 0 0 129 129 618580
+5 0 0 0 140 140 689298
 6 0 0 0 0 0 0
 7 2 6 39856 0 0 0
-8 51 178 2402297 11 11 3901
-9 30 204 1051989 5 9 13103
-10 471 3380 113222036 143 168 131306
-11 483 4239 137354474 143 171 129227
-12 456 4480 173943221 139 150 105071
-13 542 5000 198317420 141 183 120670
-14 867 6171 246122030 359 393 207433
-15 410 2712 105347335 130 145 89490
-16 462 3388 121993447 175 185 95839
-17 1076 11587 409519932 412 512 343124
-18 141 2107 92942299 74 80 65485
+8 70 336 5185986 11 13 6771
+9 33 224 1079430 6 10 13407
+10 522 3674 124015432 167 196 163938
+11 524 4803 159362898 153 183 139707
+12 598 6864 283910290 194 205 146926
+13 760 8331 332551793 214 301 2513682
+14 914 7159 292207930 380 415 225209
+15 444 3416 124583709 137 159 105731
+16 724 8365 351108562 269 282 169786
+17 1343 14994 567373079 484 590 402030
+18 148 2170 93139908 75 81 65846
 19 6 94 2470165 3 4 7123
-20 7 89 4275436 1 4 8018
-21 97 742 12364802 22 34 24401
-22 528 5603 198120463 210 219 154693
-23 556 6503 255111968 208 224 177508
+20 25 473 15942819 1 5 9453
+21 122 942 17546940 22 35 25836
+22 530 5634 199815367 211 220 159676
+23 563 6540 255148752 208 224 177508
 END_TIME
 
 # Domain - Pages - Hits - Bandwidth
 # The 10 first Pages must be first (order not required for others)
 BEGIN_DOMAIN 1
-ip 6460 60026 2163224225
+ip 7745 79003 2983540949
 END_DOMAIN
 
 # Cluster ID - Pages - Hits - Bandwidth
@@ -114,8 +114,9 @@ END_LOGIN
 
 # Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
 # The 10 first Hits must be first (order not required for others)
-BEGIN_ROBOT 1
-favicon 15 55502 20160314192611 0
+BEGIN_ROBOT 2
+googlebot 279 3628339 20160316050915 1
+favicon 19 71484 20160316103457 0
 END_ROBOT
 
 # Worm ID - Hits - Bandwidth - Last visit
@@ -135,44 +136,51 @@ END_EMAILRECEIVER
 
 # Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
 BEGIN_FILETYPES 11
-css 5913 184867248 0 0
-png 16004 31683388 0 0
-pdf 25 479803 0 0
-woff 103 1134659 0 0
-php 2716 19956223 0 0
-html 1229 5282458 0 0
-js 17606 326367578 0 0
-jpg 12446 1574275856 0 0
-jpeg 278 6502776 0 0
-Unknown 2387 9881395 0 0
-gif 1319 2792841 0 0
+css 7772 245219494 0 0
+png 21704 46403928 0 0
+pdf 26 500664 0 0
+woff 107 1160368 0 0
+php 3158 22543454 0 0
+html 1728 7695330 0 0
+js 23383 445709633 0 0
+jpg 16391 2190775920 0 0
+jpeg 345 8343589 0 0
+Unknown 2726 11528686 0 0
+gif 1663 3659883 0 0
 END_FILETYPES
 
 # OS ID - Hits
-BEGIN_OS 7
-macosx 498
-linuxandroid 160
-winxp 301
-winnt 211
+BEGIN_OS 8
+linuxandroid 539
+winxp 338
+winnt 413
 winvista 35
-linux 41898
-win2008 16923
+linux 45517
+macosx 13530
+winunknown 2
+win2008 18629
 END_OS
 
 # Browser ID - Hits
-BEGIN_BROWSER 12
-chrome46.0.2490.76 159
+BEGIN_BROWSER 18
+chrome46.0.2490.76 423
+firefox33.0 382
 mozilla 52
-netscape5.0 5
-chrome49.0.2623.87 138
+netscape5.0 6
 chrome48.0.2564.109 207
-firefox44.0 2010
+firefox44.0 2065
+chrome49.0.2623.87 387
 chrome42.0.2311.135 9
 android 1
 msie10.0 53
-chrome48.0.2564.116 56905
+chrome48.0.2564.116 61630
+opera9.7 2
+chrome46.0.2486.0 115
 chrome48.0.2564.82 435
+safari8.0 12908
 chrome50.0.2661.26 52
+chrome47.0.2526.73 161
+chrome47.0.2526.83 115
 END_BROWSER
 
 # Screen size - Hits
@@ -189,11 +197,11 @@ END_UNKNOWNREFERERBROWSER
 
 # Origin - Pages - Hits 
 BEGIN_ORIGIN 6
-From0 985 993
+From0 1260 1271
 From1 0 0
 From2 0 0
-From3 53 53
-From4 5422 58980
+From3 78 78
+From4 6407 77654
 From5 0 0
 END_ORIGIN
 
@@ -204,7 +212,7 @@ END_SEREFERRALS
 # External page referers - Pages - Hits
 # The 10 first Pages must be first (order not required for others)
 BEGIN_PAGEREFS 3
-http://quirktools.com/screenfly/ 47 47
+http://quirktools.com/screenfly/ 72 72
 http://vk.com/im 5 5
 http://vk.com/away.php 1 1
 END_PAGEREFS
@@ -223,39 +231,42 @@ END_KEYWORDS
 BEGIN_ERRORS 7
 403 1 468
 206 8 92563
-303 906 316072
+303 972 342689
 500 2 3868
-301 1 536
 504 3 1473
-404 1389 1073254
+301 2 1072
+404 1743 1344177
 END_ERRORS
 
 # URL with 404 errors - Hits - Last URL referer
-BEGIN_SIDER_404 8
-/453245 1 http://avm-agro.pp.ua/zapchastini-do-kombainiv/akros530/product/view/15/4
+BEGIN_SIDER_404 9
 /images/pdf/ru/zapchastini-kombain/pdf-test.pdf 2 http://avm-agro.pp.ua/ru/zapchasti-k-kombajnam/palesse-1218
-/templates/avm-agro/css/template.css.php 1 http://avm-agro.pp.ua/
 /templates/avm-agro/images/template/arrow_right.png 34 http://avm-agro.pp.ua/templates/avm-agro/css/jcarousel.responsive.css
 /templates/avm-agro/images/template/arrow_left.png 34 http://avm-agro.pp.ua/templates/avm-agro/css/jcarousel.responsive.css
-/ru/ 2 http://avm-agro.pp.ua/katalog-produktsiji
-/templates/avm-agro/css/bootstrap.css.map 1314 -
+/:/http://avm-agro.pp.ua/zapchastini-do-kombainiv/don680 1 http://avm-agro.pp.ua/
 /product/view/15/4 1 -
+/453245 2 http://avm-agro.pp.ua/zapchastini-do-kombainiv/akros530/product/view/15/4
+/templates/avm-agro/css/template.css.php 1 http://avm-agro.pp.ua/
+/templates/avm-agro/css/bootstrap.css.map 1666 -
+/ru/ 2 http://avm-agro.pp.ua/katalog-produktsiji
 END_SIDER_404
 
 # Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
 # [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
 # The 10 first Hits must be first (order not required for others)
-BEGIN_VISITOR 15
-195.64.149.118 4559 41454 1560477692 20160314181646
-31.43.111.162 1520 16637 555362365 20160315000724 20160315000011 /novini
-89.162.236.238 258 1057 19388888 20160314082807
-62.216.43.90 74 360 10333299 20160314181515
-91.225.123.226 22 211 6958005 20160314152838
+BEGIN_VISITOR 17
+195.64.149.118 5593 57788 2283271831 20160316181456
+31.43.111.162 1720 18526 634529663 20160316220728 20160316220727 /templates/avm-agro/css/template.css.php
+89.162.236.238 265 1094 20225492 20160316105708
+62.216.43.90 84 484 13011561 20160315160733
+91.225.123.226 34 413 9670850 20160315162013
+82.207.62.58 18 384 11667383 20160316204743
 212.90.32.85 11 138 3841980 20160311212512
+104.45.18.178 3 3 45013 20160315155319
+213.251.182.103 3 6 453147 20160315131808
 176.36.10.7 3 52 2010605 20160311115230
 95.134.107.204 2 34 15373 20160305095502
 40.78.146.128 2 2 23372 20160311114330
-104.45.18.178 2 2 37967 20160311120056
 23.101.61.176 1 1 16486 20160311120103
 46.201.80.121 1 1 3713 20160305183747
 88.176.231.23 2 33 1733307 20160303205642
@@ -264,7 +275,7 @@ BEGIN_VISITOR 15
 END_VISITOR
 
 # Date - Pages - Hits - Bandwidth - Visits
-BEGIN_DAY 13
+BEGIN_DAY 14
 20160301 1072 7054 286882622 7
 20160302 847 3644 116670779 5
 20160303 449 3878 198453657 6
@@ -277,38 +288,39 @@ BEGIN_DAY 13
 20160312 157 995 31018041 5
 20160313 271 3513 141697541 2
 20160314 605 9567 280592677 9
-20160315 39 329 17213195 1
+20160315 1259 18680 820620367 10
+20160316 65 626 16909552 7
 END_DAY
 
 # Session range - Number of visits
 BEGIN_SESSION 7
-1h+ 18
+1h+ 19
 5mn-15mn 9
-30s-2mn 3
-15mn-30mn 6
+30s-2mn 6
 2mn-5mn 1
-0s-30s 29
-30mn-1h 7
+15mn-30mn 10
+0s-30s 32
+30mn-1h 12
 END_SESSION
 
 # URL - Pages - Bandwidth - Entry - Exit
 # The 10 first Pages must be first (order not required for others)
-BEGIN_SIDER 151
-/administrator/index.php 1464 14654072 7 5
-/templates/avm-agro/css/template.css.php 1252 5302151 0 33
-/ 969 4162594 36 11
-/zapchastini-do-kombainiv/akros530 643 2488204 1 2
-/ru/ 258 1113939 8 3
-/ru/zapchasti-k-kombainam/akros530 180 870742 1 2
-/zapchastini-do-kombajniv/akros-530 152 586693 2 2
+BEGIN_SIDER 154
+/templates/avm-agro/css/template.css.php 1641 7422079 0 39
+/administrator/index.php 1517 15121375 9 9
+/ 1429 6386276 46 12
+/zapchastini-do-kombainiv/akros530 698 2783369 1 2
+/ru/ 296 1296718 9 5
+/zapchastini-do-kombajniv/akros-530 206 821821 2 2
+/ru/zapchasti-k-kombainam/akros530 184 892502 1 2
+/novini 144 635624 4 4
+/zapchastini-do-kombainiv/akros530/product/view/15/4 118 560465 0 0
 /pasi-stomil 103 366762 1 0
-/zapchastini-do-kombainiv/akros530/product/view/15/4 102 469457 0 0
-/novini 92 408869 2 3
-/images/pdf/ua/zapchastini-kombain/pdf-test.pdf 10 166888 0 1
-/zapchastini-do-kombainiv/akros530/product/view/15/3 3 14921 0 0
+/images/pdf/ua/zapchastini-kombain/pdf-test.pdf 11 187749 0 1
+/zapchastini-do-kombainiv/akros530/product/view/15/3 41 213965 0 0
 /ru/zapchasti-dlya-zhatok 1 3588 0 0
 /ru/zapchasti-k-pochvoobrabatyvayushchej-tekhnike 1 3590 0 0
-/media/editors/tinymce/skins/lightgray/fonts/tinymce-small.woff 28 170772 0 0
+/media/editors/tinymce/skins/lightgray/fonts/tinymce-small.woff 29 170772 0 0
 /ru/zapchasti-k-pochvoobrabatyvayushchej-tekhnike/borony 1 3768 0 0
 /ru/zapchasti-k-kombajnam/palesse-1218 7 26506 0 0
 /ru/zapchasti-k-kombainam/palesse812 3 13973 0 0
@@ -320,16 +332,16 @@ BEGIN_SIDER 151
 /zapchastini-do-kombainiv/akros535/product/view/16/2 2 10105 0 0
 /zapchastini-do-kombainiv/akros535/product/view/15/4 1 5238 0 0
 /ru/zapchasti-k-kombainam/palesse-kdp3000 1 4751 0 0
-/media/editors/tinymce/skins/lightgray/fonts/tinymce.woff 28 166908 0 0
+/media/editors/tinymce/skins/lightgray/fonts/tinymce.woff 29 166908 0 0
 /zapchastini-do-kombainiv/akros580/product/view/17/6 1 5585 0 0
 /zapchastini-do-zhnivaroc/fantyni 3 11359 0 0
 /ru/component/jshopping/product/view/15/1 4 19766 0 0
 /ru 1 2528 0 0
 /zapchastini-do-obpriskuvachiv 3 11240 0 0
-/zapchastini-do-kombainiv/palesse-kdp3000 3 12979 0 0
+/zapchastini-do-kombainiv/palesse-kdp3000 6 27547 0 0
 /zapchastini-do-kombajniv/don-1500b 3 10888 0 0
-/novini/11-novina-5 3 10097 0 0
-/pro-kompaniyu 39 182412 0 0
+/novini/11-novina-5 7 25889 0 0
+/pro-kompaniyu 43 201977 0 0
 /zapchastini-do-kombajniv/don-680 1 3751 0 0
 /konditsionery 7 28316 0 0
 /ru/zapchasti-k-kombainam/don1500a 1 5061 0 0
@@ -338,48 +350,50 @@ BEGIN_SIDER 151
 /katalog-produktsiji 20 76664 0 0
 /ru/zapchasti-k-pochvoobrabatyvayushchej-tekhnike/kultivatory 2 7591 0 0
 /ru/nozhi 5 20481 0 0
-/administrator/ 1 3011 0 0
+/administrator/ 2 9422 0 0
 /zapchastini-do-zhnivaroc/kms 3 11701 0 0
 /zapchastini-do-zhnivarok/kmd 3 11014 0 0
 /images/pdf/ru/zapchasti-opriskuvatel/pdf-test.pdf 1 20861 0 0
 /zapchastini-do-obpriskuvachyv 9 35953 0 1
-/zapchastini-do-kombainiv/don680 2 8420 0 0
-/ru/zapchasti-k-kombajnam/akros-530 46 183685 0 0
+/zapchastini-do-kombainiv/don680 4 18414 0 0
+/ru/zapchasti-k-kombajnam/akros-530 47 188061 0 0
 /zapchastini-do-kombainiv/vektor410 8 38654 0 0
-/ru/konditsioneri 3 12315 0 0
 /ru/zapchasty-dlya-zhatok/oross 3 10651 0 0
-/zapchastini-do-kombainiv/akros530/product/view/15/5 54 297724 1 1
+/ru/konditsioneri 3 12315 0 0
+/zapchastini-do-kombainiv/akros530/product/view/15/5 63 349118 1 2
 /novini/7-ukrajina-z-lipnya-2015-roki-vzhe-eksportuvala-24-mln-tonn-zernovikh 2 6895 0 0
 /ru/zapchasti-k-kombainam/akros535 3 12841 0 0
-/component/jshopping/product/view/15/3 3 13220 0 0
+/component/jshopping/product/view/15/3 5 23718 0 0
 /ru/zapchasti-dlya-zhatok/oros 10 37511 0 0
 /zapchastini-do-kombajniv/palesse-1218 7 26743 0 0
 /ru/component/jshopping/product/view/15/2 2 7940 0 0
 /zapchastini-do-kombajniv/don-680m 1 3753 0 0
-/zapchastini-do-kombainiv/don1500a 7 27144 0 0
+/zapchastini-do-kombainiv/don1500a 10 42627 0 0
 /ru/zapchasti-k-pochvoobrabatyvayushchej-tekhnike/seyalki 5 18809 0 0
 /images/pdf/ua/zapchastint-grunt/pdf-test.pdf 1 20861 0 0
 /ru/zapchasti-k-kombainam/don680 1 4903 0 0
 /zapchastini-do-kombainiv/palesse812 3 12959 0 0
-/component/jshopping/search/result 61 252867 0 0
+/component/jshopping/search/result 93 410457 0 0
 /zapchastini-do-zhnivaroc 3 10365 0 0
 /ru/zapchasty-dlya-zhatok/kmd 2 7860 0 0
 /images/pdf/ua/pasu-stomil/pdf-test.pdf 2 41722 0 0
 /ru/zapchasti-k-kombajnam/palesse-812 1 4248 0 0
 /zapchastini-do-gruntoobrobnoi-tekhniki/plugy 2 7482 0 0
+/novini/10-novina-4 1 3949 0 0
 /ru/nozhu 1 4273 0 0
 /zapchastini-do-gruntoobrobnoi-tekhniki/sivalky 7 27277 0 0
 /ru/zapchasti-k-kombainam/akros580 5 22791 0 0
 /ru/zapchasty-dlya-zhatok/kms 2 8194 0 0
-/zapchastini-do-kombainiv/akros535/product/view/16/6 21 65486 0 0
+/zapchastini-do-kombainiv/akros535/product/view/16/6 22 71176 0 0
 /zapchastini-do-kombainiv/akros580 9 40255 0 0
+/component/jshopping/product/view/15/6 1 5701 0 0
 /zapchastini-do-kombajniv/akros-535 2 7527 0 0
 /ru/component/jshopping/product/view/15/4 1 5620 0 0
 /ru/zapchasti-dlya-zhatok/fantini 2 7802 0 0
 /component/jshopping/product/view/15/2 2 7984 0 0
 /zapchastini-do-kombajniv/don-1500a 3 11219 0 0
 /ru/novosti/13-novost-2 3 10201 0 0
-/ru/dostavka-i-oplata 15 53626 1 1
+/ru/dostavka-i-oplata 16 57435 1 1
 /ru/remny-stomil 8 29953 0 0
 /nozhy 2 8357 0 0
 /ru/zapchasti-dlya-opryskivatelei 2 8296 0 0
@@ -390,22 +404,22 @@ BEGIN_SIDER 151
 /zapchastini-do-zhnivarok/oros 8 29727 0 0
 /ru/component/jshopping/search/result 29 123217 0 0
 /zapchastini-do-kombajniv/vektor-410 3 11066 0 0
-/zapchastini-do-kombainiv/akros530/product/view/15/1 31 159064 0 1
+/zapchastini-do-kombainiv/akros530/product/view/15/1 43 225568 0 1
 /ru/zapchasti-k-kombajnam/don-1500b 4 15760 0 0
 /zapchastini-do-zhnivarok/kmc 2 7479 0 1
 /ru/zapchasti-k-kombainam/akros530/product/view/15/2 2 9532 0 0
 /zapchastini-do-kombainiv/akros535/product/view/15/1 1 5091 0 0
-/ru/zapchasti-k-kombainam/akros530/product/view/15/1 25 129960 0 0
+/ru/zapchasti-k-kombainam/akros530/product/view/15/1 27 141186 0 0
 /images/pdf/ru/zapchasti-zhatka/pdf-test.pdf 2 41722 0 0
-/dostavka-ta-oplata 38 133318 12 0
+/dostavka-ta-oplata 43 152298 13 0
 /ru/zapchasti-k-kombainam/don680m 3 12283 0 1
-/kontakti 59 232801 1 1
+/kontakti 77 306354 1 1
 /zapchastini-do-kombajniv/palesse-kdp-3000 1 3761 0 0
 /ru/zapchasti-k-kombainam/don1500b 3 14232 0 0
-/zapchastini-do-kombainiv/akros535 16 73841 0 0
+/zapchastini-do-kombainiv/akros535 21 100186 0 0
 /ru/zapchasti-k-kombainam/akros530/product/view/15/5 33 186980 1 0
 /ru/konditsionery 41 149295 0 0
-/ru/novosti 17 66568 0 0
+/ru/novosti 19 74965 0 0
 /ru/zapchasti-k-pochvoobrabatyvayushchej-tekhnike/plugi 5 18979 0 0
 /ru/zapchasti-dlya-opryskivatelej 5 18825 0 0
 /ru/remni-stomil 39 147532 0 0
@@ -425,24 +439,25 @@ BEGIN_SIDER 151
 /ru/zapchasti-k-kombajnam/don-680 1 4217 0 0
 /ru/component/jshopping/product/view/15/5 2 11284 0 0
 /administrator/index.php/ 1 2914 0 0
-/pasy-stomil 7 25793 0 0
+/pasy-stomil 8 29982 0 0
 /images/pdf/ua/zapchastini-zhnivarka/pdf-test.pdf 1 20861 0 0
-/zapchastini-do-kombainiv/palesse1218 4 17671 0 0
+/nozhi 10 40648 0 1
+/zapchastini-do-kombainiv/palesse1218 6 27377 0 0
 /zapchastini-do-zhnivaroc/oross 8 29358 0 0
 /ru/zapchasti-k-kombajnam/don-1500a 3 11311 0 0
-/nozhi 9 36469 0 0
 /zapchastini-do-kombainiv/akros535/product/view/16/5 7 37745 0 0
+/zapchastini-do-kombainiv/palesse1218/product/view/24/3 1 5247 0 0
 /zapchastini-do-gruntoobrobnoji-tekhniki/plugi 1 3761 0 0
 /ru/o-kompanii 12 53205 0 0
+/ru/kontakty 36 139522 0 2
 /zapchastini-do-kombajniv/akros-580 2 7528 0 0
-/media/jui/fonts/IcoMoon.woff 47 796979 0 0
-/ru/kontakty 32 123104 0 2
+/media/jui/fonts/IcoMoon.woff 49 822688 0 0
 /images/pdf/ru/zapchasti-grunt/pdf-test.pdf 2 41722 0 0
 /zapchastini-do-kombainiv/don1500b 5 20790 0 0
 /zapchastini-do-kombainiv 6 18364 0 1
 /images/pdf/ua/konditsioneri/pdf-test.pdf 2 41722 0 0
-/zapchastini-do-kombainiv/don680m 2 8467 0 0
+/zapchastini-do-kombainiv/don680m 4 18533 0 0
 /ru/zapchasty-dlya-zhatok/fantini 2 8202 0 0
 /zapchastini-do-gruntoobrobnoi-tekhniki/borony 1 3643 0 0
-/zapchastini-do-kombainiv/akros530/product/view/15/2 11 53815 0 0
+/zapchastini-do-kombainiv/akros530/product/view/15/2 12 59027 0 0
 END_SIDER
