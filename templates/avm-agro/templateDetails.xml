@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+
+<extension version="2.5" type="template" client="site" method="upgrade">
+	
+	<name>AVM-Agro</name><!-- name the template -->
+	<creationDate>2016-02-22</creationDate><!-- the date your are beginn to code -->
+	<author>Vilan</author><!-- your name (oops, I repeat myself) -->
+	<copyright>Copyright © xxxx example.com</copyright><!-- for who you are coding -->
+	<authorEmail>admin@example.com</authorEmail><!-- your email address -->
+	<authorUrl>http://www.example.com</authorUrl><!-- your url -->
+	<version>1.0.0</version><!-- give your template a number -->
+	<description><![CDATA[ 
+		<h1>frontend</h1>
+		<p>Created by <a href="http://www.example.com" target="_blank">your name | example.com</a>.</p>
+	]]></description><!-- change the description as you like -->
+	
+	<files><!-- no need to change -->
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>index.php</filename>
+		<filename>logic.php</filename>
+		<filename>offline.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>favicon.ico</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<positions>
+		<position>breadcrumbs</position>
+		<position>logo</position>
+		<position>headerPhones</position>
+		<position>langs</position>
+		<position>search</position>
+		<position>menu</position>
+		<position>slider</position>
+		<position>map</position>
+		<position>left_menu</position>
+		<position>main-categories</position>
+		<position>categories</position>
+		<position>news_block</position>
+		<position>debug</position>
+	</positions>
+	
+</extension>
